@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>EditorJS</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="index.js" defer> </script>
+  </head>
+  <body>
+  		<center>
+  			<div class="workspace">
+		        <canvas class="img_container" id="img_container"> </canvas>
+		        <div class="tools">
+		        	<div class="insert_img_tool">
+		        		<button type="button" name="button" onclick="load_image()">Insert an image into workspace </button>
+		        	</div>
+
+		        	<div class="opacity_tool">
+		        		<button type="button" onclick="decrease_opacity()"> - </button>
+		        		Opacity of the image
+		        		<button type="button" onclick="increase_opacity()"> + </button>
+		        	</div>
+
+		        	<div class="text_tool">
+		        		<textarea rows="1" cols="11" id="text"></textarea>
+		        		<select id="font_number_text">
+		        			<option> 10 </option>
+		        			<option> 12 </option>
+		        			<option> 14 </option>
+		        			<option> 16 </option>
+		        			<option> 18 </option>
+		        			<option> 20 </option>
+		        			<option> 22 </option>
+		        			<option> 24 </option>
+		        		</select>
+		        		<input type="color" id="color">
+		        		<button type="button" onclick="createText()"> Draw text </button>
+		        	</div>
+
+		        	<div class="export_tool">
+		        		<button onclick="export_image()">  Export image </button>
+		        	</div>
+
+		        </div>
+	        </div>
+    	</center>
+  </body>
+</html>
