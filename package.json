@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "gh-pages": "^2.1.1",
+    "husky": "^3.0.5"
+  },
+  "scripts": {
+    "deploy": "gh-pages src"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run deploy"
+    }
+  }
+}
