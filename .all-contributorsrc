@@ -1,0 +1,33 @@
+{
+  "projectName": "PhotoEditor",
+  "projectOwner": "SilviuCristian45",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "gitmoji",
+  "contributors": [
+    {
+      "login": "SilviuCristian45",
+      "name": "Dincă Silviu Cristian",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/40609786?v=4",
+      "profile": "http://dincasilviu.000webhostapp.com/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Mateiadrielrafael",
+      "name": "Matei Adriel",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/39400800?v=4",
+      "profile": "https://github.com/Mateiadrielrafael",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}

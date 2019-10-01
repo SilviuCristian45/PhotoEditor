@@ -8,6 +8,7 @@
   },
   "husky": {
     "hooks": {
+      "pre-commit": "all-contributors generate && git add README.md",
       "pre-push": "npm run deploy"
     }
   }
