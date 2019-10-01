@@ -136,7 +136,7 @@ const createText = () => {
 }
 
 /**
- * @type { (e:MouseEvent) => void }
+ * @param {MouseEvent} e
  */
 const handleMouseDown = e => {
   e.preventDefault()
@@ -223,6 +223,7 @@ canvas.addEventListener('mousemove', handleMouseMove)
 
 const exportImage = () => {
   const image = canvas.toDataURL('image/png')
+
   document.write('Right click + save image as')
   document.write('<img src="' + image + '"/>')
 }
