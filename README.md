@@ -18,6 +18,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="http://dincasilviu.000webhostapp.com/"><img src="https://avatars0.githubusercontent.com/u/40609786?v=4" width="100px;" alt="Dincă Silviu Cristian"/><br /><sub><b>Dincă Silviu Cristian</b></sub></a><br /><a href="https://github.com/SilviuCristian45/PhotoEditor/commits?author=SilviuCristian45" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Mateiadrielrafael"><img src="https://avatars0.githubusercontent.com/u/39400800?v=4" width="100px;" alt="Matei Adriel"/><br /><sub><b>Matei Adriel</b></sub></a><br /><a href="https://github.com/SilviuCristian45/PhotoEditor/commits?author=Mateiadrielrafael" title="Code">💻</a></td>
   </tr>
 </table>
 
